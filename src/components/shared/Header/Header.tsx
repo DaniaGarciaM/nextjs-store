@@ -8,10 +8,10 @@ export const Header = () => {
             <nav>
                 <ul className={styles.Header__list}>
                     <Link href="/">
-                        <li>Home</li>
+                        <li className={styles.Header__ancla}>Home</li>
                     </Link>
                     <Link href="/store">
-                        <li>Store</li>
+                        <li className={styles.Header__ancla}>Store</li>
                     </Link>
                 </ul>
             </nav>
