@@ -13,6 +13,9 @@ export const Header = () => {
                     <Link href="/store">
                         <li className={styles.Header__ancla}>Store</li>
                     </Link>
+                    <Link href="/test">
+                        <li className={styles.Header__ancla}>Test</li>
+                    </Link>
                 </ul>
             </nav>
         </header>
